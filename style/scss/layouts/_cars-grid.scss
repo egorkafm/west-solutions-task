@@ -1,0 +1,226 @@
+.cars-grid-section {
+  padding-top: 100px;
+  padding-bottom: 120px;
+
+  & .cars-grid-title {
+    @include title-second;
+    text-align: center;
+    margin-bottom: 74px;
+    color: $color-secondary-100;
+    line-height: 1.5;
+  }
+}
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 25px;
+
+  & > select {
+    width: 170px;
+    height: 48px;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    padding-left: 16px;
+
+    &:hover {
+      border: 2px solid $color-primary-300;
+      cursor: pointer;
+    }
+  }
+
+  & > button {
+    width: 290px;
+    border: 2px solid transparent;
+    background: $color-primary-300;
+    color: $color-primary-200;
+    border-radius: 15px;
+    &:hover {
+      background: transparent;
+      border: 2px solid $color-primary-300;
+      color: $color-primary-300;
+    }
+    &:active {
+      border: 2px solid transparent;
+      background: $color-primary-300;
+      color: $color-primary-200;
+    }
+    &:disabled {
+      border: 2px solid transparent;
+      background: $color-primary-300;
+      color: $color-primary-200;
+      opacity: 0.5;
+    }
+  }
+}
+
+.filter-container {
+  margin-bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 1.33;
+
+  & > .form-check {
+    min-height: auto;
+    display: flex;
+    align-items: center;
+
+    & > input {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+      border-color: $color-secondary-200;
+      box-shadow: none;
+
+      &:checked {
+        background-color: $color-primary-300;
+        border-color: $color-primary-300;
+      }
+    }
+
+    & > .form-check-label {
+      color: $color-secondary-200;
+      vertical-align: middle;
+    }
+  }
+}
+
+.sorting-container {
+  @include btn-secondary;
+  display: flex;
+  column-gap: 37px;
+  font-size: 12px;
+  line-height: 1.36;
+  color: $color-primary-100;
+  position: relative;
+
+  label {
+    margin-right: 10px;
+    &::after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      width: 13px;
+      height: 13px;
+      background-image: url("../../images/icons/ascending.svg");
+      background-repeat: no-repeat;
+    }
+  }
+
+  & .sorting {
+    appearance: none;
+    color: $color-secondary-200;
+    position: relative;
+
+    & > option {
+      &:hover {
+        color: $color-primary-300 !important;
+        cursor: pointer;
+      }
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.cars-grid {
+  & > .row {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 20px;
+    justify-content: center;
+  }
+
+  & .col {
+    flex: 0;
+  }
+
+  & .card {
+    position: relative;
+    background-color: $color-secondary-500;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.9;
+    }
+
+    & > .card-body {
+      padding: 0 20px 35px 20px;
+
+      & > .card-text {
+        margin-bottom: 26px;
+        @include span-secondary;
+        color: $color-secondary-200;
+        line-height: 1.36;
+      }
+
+      & > .card-price {
+        @include span-primary;
+        color: $color-primary-100;
+        line-height: 1.35;
+      }
+    }
+
+    & .card-title-container {
+      display: flex;
+      & > span {
+        color: $color-secondary-200;
+        margin-right: 8px;
+      }
+
+      & > .card-title {
+        @include title-sixth;
+        line-height: 1.35;
+        margin-bottom: 13px;
+      }
+    }
+
+    &:hover h5.card-title,
+    &:focus h5.card-title {
+      text-decoration: underline;
+    }
+
+    & .sold-text {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      @include title-second;
+      line-height: 1.5;
+      color: $color-secondary-500;
+    }
+
+    & .new-text {
+      position: absolute;
+      top: 176px;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      width: 66.5px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $color-primary-100;
+      @include title-second;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: $color-secondary-500;
+    }
+  }
+
+  & img {
+    margin-bottom: 20px;
+    width: auto;
+    object-fit: contain;
+  }
+}

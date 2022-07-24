@@ -1,0 +1,1 @@
+# West Solutions test task

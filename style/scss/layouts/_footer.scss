@@ -1,0 +1,36 @@
+footer {
+  padding-top: 36px;
+  padding-bottom: 37px;
+  background-color: $color-primary-100;
+
+  & > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-primary-200;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+
+    & .navbar-logo {
+      fill: $color-primary-200;
+    }
+
+    & > .footer-nav-links {
+      @include title-fourth;
+      display: flex;
+      column-gap: 40px;
+      font-size: 15px;
+      & > .footer-nav-item > .footer-nav-link:hover {
+        color: $color-primary-200;
+      }
+    }
+
+    & > .footer-nav-social-links {
+      display: flex;
+      column-gap: 24px;
+    }
+  }
+}

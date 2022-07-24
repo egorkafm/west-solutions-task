@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/css/style.css" />
+    <title>West Solutions</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a href="#">
+            <img class="navbar-logo" src="./images/icons/logo.svg" alt="logo">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inventory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Financing</a>
+              </li>
+              <li class="nav-item social-list">
+                <a class="nav-link" href="#">Contacts</a>
+                <ul class="navbar-nav social-links">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img class="navbar-logo" src="./images/icons/facebook.svg" alt="facebook">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img class="navbar-logo" src="./images/icons/instagram.svg" alt="instagram">
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="main">
+        <div class="container">
+          <div class="main-bcg"></div>
+          <h1 class="main-title">The right way to get a car</h1>
+          <div class="row">
+            <div class="col">
+              <p class="main-text">
+                Monza Motorsports is a boutique-style dealership specializing in
+                premium imports. We offer an advanced online vehicle purchasing
+                experience with integrated financing and contactless home
+                delivery.
+              </p>
+            </div>
+            <div class="col">
+              <p class="main-text">
+                All of our cars come with a 5 day/500 kilometres no-hassle
+                exchange option. Since 2012 Monza Motorsports has been the
+                benchmark for innovation in the automotive industry.
+              </p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-primary">
+            Browse cars
+          </button>
+        </div>
+      </section>
+
+      <section class="cars-grid-section">
+        <div class="container">
+          <h2 class="cars-grid-title">CURRENT OFFERS</h2>
+          <div class="dropdown-container">
+            <div class="dropdown">
+              <form action="#" class="filters-container">
+                <select class="form-select" aria-label="Year">
+                  <option selected>Year</option>
+                  <option class="form-option" value="2014">2014</option>
+                  <option class="form-option" value="2015">2015</option>
+                  <option class="form-option" value="2016">2016</option>
+                  <option class="form-option" value="2017">2017</option>
+                  <option class="form-option" value="2019">2019</option>
+                </select>
+                <select class="form-select" aria-label="Make">
+                  <option class="form-option" value="Make" selected>Make</option>
+                  <option class="form-option" value="volkswagen">
+                    Volkswagen
+                  </option>
+                  <option class="form-option" value="toyota">Toyota</option>
+                  <option class="form-option" value="lexus">Lexus</option>
+                  <option class="form-option" value="hyundai">Hyundai</option>
+                  <option class="form-option" value="mercedes">
+                    Mercedes-Benz
+                  </option>
+                </select>
+                <select class="form-select" aria-label="Model">
+                  <option class="form-option" value="Model" selected>Model</option>
+                  <option class="form-option" value="tiguan">Tiguan</option>
+                  <option class="form-option" value="highlander">
+                    Highlander
+                  </option>
+                  <option class="form-option" value="rx350">RX 350</option>
+                  <option class="form-option" value="elantra">Elantra</option>
+                  <option class="form-option" value="gle">GLE-Class</option>
+                  <option class="form-option" value="venza">Venza</option>
+                </select>
+                <select class="form-select" aria-label="Trim">
+                  <option class="form-option" value="Trim" selected>Trim</option>
+                  <option class="form-option" value="basic">Basic</option>
+                  <option class="form-option" value="xle">XLE</option>
+                  <option class="form-option" value="leawd">LE AWD</option>
+                  <option class="form-option" value="luxury">Luxury</option>
+                  <option class="form-option" value="awdxle">AWD XLE</option>
+                  <option class="form-option" value="fsport">F-SPORT</option>
+                </select>
+                <select class="form-select" aria-label="Mileage">
+                  <option class="form-option" value="Mileage" selected>Mileage</option>
+                  <option class="form-option" value="30000">
+                    &lt;30 000 km
+                  </option>
+                  <option class="form-option" value="60000">
+                    &lt;60 000 km
+                  </option>
+                  <option class="form-option" value="90000">
+                    &lt;90 000 km
+                  </option>
+                  <option class="form-option" value="120000">
+                    &lt;120 000 km
+                  </option>
+                </select>
+                <button type="button" class="car__quantity-btn">40 cars</button>
+              </form>
+            </div>
+          </div>
+          <div class="filter-container">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault">
+                Instantly available vehicles
+              </label>
+            </div>
+            <div class="sorting-container">
+              <div class="dropdown">
+                <label for="sorting">Sort by</label>
+                <select class="btn sorting" aria-label="sortBy" id="sorting">
+                  <option selected>Publication date (ascending)</option>
+                  <option
+                    class="form-option"
+                    value="Publication-date-descending"
+                  >
+                    Publication date (descending)
+                  </option>
+                  <option class="form-option" value="Price-ascending">
+                    Price (ascending)
+                  </option>
+                  <option class="form-option" value="Price-descending">
+                    Price (descending)
+                  </option>
+                  <option class="form-option" value="Mileage-ascending">
+                    Mileage (ascending)
+                  </option>
+                  <option class="form-option" value="Mileage-descending">
+                    Mileage (descending)
+                  </option>
+                  <option class="form-option" value="Performance-ascending">
+                    Performance (ascending)
+                  </option>
+                  <option class="form-option" value="Performance-descending">
+                    Performance (descending)
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="cars-grid">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-1.jpg"
+                    alt="Volkswagen Tiguan"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2019</span>
+                      <h5 class="card-title">Volkswagen Tiguan</h5>
+                    </div>
+                    <p class="card-text">
+                      19,855 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$34,888</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-2.jpg"
+                    alt="Toyota Highlander XLE"
+                    width="295"
+                    height="200"
+                  />
+                  <span class="new-text">New</span>
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2014</span>
+                      <h5 class="card-title">Toyota Highlander XLE</h5>
+                    </div>
+                    <p class="card-text">
+                      69,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$27,875</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-3.jpg"
+                    alt="Lexus RX 350 LUXURY"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2017</span>
+                      <h5 class="card-title">Lexus RX 350 LUXURY</h5>
+                    </div>
+                    <p class="card-text">
+                      39,850 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$38,775</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-4.jpg"
+                    alt="Toyota Highlander LE AWD"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2016</span>
+                      <h5 class="card-title">Toyota Highlander LE A..</h5>
+                    </div>
+                    <p class="card-text">
+                      104,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$23,728</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-5.jpg"
+                    alt="Hyundai Elantra"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2017</span>
+                      <h5 class="card-title">Hyundai Elantra</h5>
+                    </div>
+                    <p class="card-text">
+                      95,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$11,788</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-6.jpg"
+                    alt="Mercedes-Benz GLE-CI..."
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2016</span>
+                      <h5 class="card-title">Mercedes-Benz GLE-CI...</h5>
+                    </div>
+                    <p class="card-text">
+                      59,800 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$38,878</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-7.jpg"
+                    alt="Toyota Venza AWD XLE..."
+                    width="295"
+                    height="200"
+                  />
+                  <span class="sold-text">SOLD</span>
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2015</span>
+                      <h5 class="card-title">Toyota Venza AWD XLE...</h5>
+                    </div>
+                    <p class="card-text">
+                      99,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$18,620</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-8.jpg"
+                    alt="Lexus RX 350 F-SPORT"
+                    width="295"
+                    height="200"
+                  />
+                  <span class="new-text">New</span>
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2016</span>
+                      <h5 class="card-title">Lexus RX 350 F-SPORT</h5>
+                    </div>
+                    <p class="card-text">
+                      86,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$34,888</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-9.jpg"
+                    alt="Volkswagen Tiguan"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2019</span>
+                      <h5 class="card-title">Volkswagen Tiguan</h5>
+                    </div>
+                    <p class="card-text">
+                      19,855 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$34,888</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-10.jpg"
+                    alt="Toyota Highlander XLE"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2014</span>
+                      <h5 class="card-title">Toyota Highlander XLE</h5>
+                    </div>
+                    <p class="card-text">
+                      69,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$27,875</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-11.jpg"
+                    alt="Lexus RX 350 LUXURY"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2017</span>
+                      <h5 class="card-title">Lexus RX 350 LUXURY</h5>
+                    </div>
+                    <p class="card-text">
+                      39,850 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$38,775</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-12.jpg"
+                    alt="Toyota Highlander LE AWD"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2016</span>
+                      <h5 class="card-title">Toyota Highlander LE A..</h5>
+                    </div>
+                    <p class="card-text">
+                      104,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$23,728</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-13.jpg"
+                    alt="Volkswagen Tiguan"
+                    width="295"
+                    height="200"
+                  />
+                  <span class="new-text">New</span>
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2019</span>
+                      <h5 class="card-title">Volkswagen Tiguan</h5>
+                    </div>
+                    <p class="card-text">
+                      19,855 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$34,888</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-14.jpg"
+                    alt="Toyota Highlander XLE"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2014</span>
+                      <h5 class="card-title">Toyota Highlander XLE</h5>
+                    </div>
+                    <p class="card-text">
+                      69,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$27,875</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-15.jpg"
+                    alt="Lexus RX 350 LUXURY"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2017</span>
+                      <h5 class="card-title">Lexus RX 350 LUXURY</h5>
+                    </div>
+                    <p class="card-text">
+                      39,850 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$38,775</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-16.jpg"
+                    alt="Toyota Highlander LE AWD"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2016</span>
+                      <h5 class="card-title">Toyota Highlander LE A..</h5>
+                    </div>
+                    <p class="card-text">
+                      104,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$23,728</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-17.jpg"
+                    alt="Hyundai Elantra"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2017</span>
+                      <h5 class="card-title">Hyundai Elantra</h5>
+                    </div>
+                    <p class="card-text">
+                      95,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$11,788</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-18.jpg"
+                    alt="Mercedes-Benz GLE-CI..."
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2016</span>
+                      <h5 class="card-title">Mercedes-Benz GLE-CI...</h5>
+                    </div>
+                    <p class="card-text">
+                      59,800 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$38,878</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-19.jpg"
+                    alt="Toyota Venza AWD XLE..."
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2015</span>
+                      <h5 class="card-title">Toyota Venza AWD XLE...</h5>
+                    </div>
+                    <p class="card-text">
+                      99,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$18,620</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-20.jpg"
+                    alt="Lexus RX 350 F-SPORT"
+                    width="295"
+                    height="200"
+                  />
+                  <span class="new-text">New</span>
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2016</span>
+                      <h5 class="card-title">Lexus RX 350 F-SPORT</h5>
+                    </div>
+                    <p class="card-text">
+                      86,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$34,888</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-21.jpg"
+                    alt="Volkswagen Tiguan"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2019</span>
+                      <h5 class="card-title">Volkswagen Tiguan</h5>
+                    </div>
+                    <p class="card-text">
+                      19,855 km<span> | </span>Automatic<span> | </span>Diesel
+                    </p>
+                    <p class="card-price">$34,888</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="./images/car-22.jpg"
+                    alt="Toyota Highlander XLE"
+                    width="295"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <div class="card-title-container">
+                      <span>2014</span>
+                      <h5 class="card-title">Toyota Highlander XLE</h5>
+                    </div>
+                    <p class="card-text">
+                      69,000 km<span> | </span>Automatic<span> | </span>Gas
+                    </p>
+                    <p class="card-price">$27,875</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback-container">
+        <div class="container">
+          <div class="feedback-text-container">
+            <h2 class="feedback-text">Haven't found a suitable vehicle?</h2>
+            <p class="feedback-text">
+              Sign up for our newsletter and be the first to know when we
+              publish new vehicle offers.
+            </p>
+          </div>
+          <form>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter your email"
+              id="exampleInputEmail1"
+            />
+            <button type="submit" class="btn btn-primary">Subscribe now</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="questions-container">
+        <div class="container">
+          <h2 class="questions-title">popular questions</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  1. Scope
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  2. Vehicle characteristics
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  3. Warranty / guarantee
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  4. Trade-in vehicle
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  5. Home Delivery
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  6. Right of return
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  7. Written form
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  8. Applicable law and place of jurisdiction
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    3.1 The statutory warranty is completely excluded to the
+                    extent permitted by law.
+                  </p>
+                  <p>
+                    3.2 If the vehicle still has a current factory warranty, a
+                    sales representative (brand representative) of the
+                    manufacturer shall provide the services owed therein. If
+                    there is a factory warranty, the beginning of the warranty
+                    for new vehicles or vehicles with a current manufacturer's
+                    warranty is not the date of the first placing on the market,
+                    but the beginning of the warranty in the manufacturer's
+                    system or the contractually agreed beginning of the
+                    warranty, if any.
+                  </p>
+                  <p>
+                    3.3 If there is a special warranty insurance for the
+                    vehicle, this will take the place of the material warranty
+                    according to section 3.1 and replace it. In this case, the
+                    General Terms and Conditions of the respective warranty
+                    service provider apply.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <a href="index.html">
+          <img class="navbar-logo" src="./images/icons/logo.svg" alt="logo">
+        </a>
+        <ul class="footer-nav-links">
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Inventory</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Financing</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contacts</a>
+          </li>
+        </ul>
+        <ul class="footer-nav-social-links">
+          <li class="footer-nav-social-item">
+            <a class="footer-nav-social-link" href="#">
+              <img class="navbar-logo" src="./images/icons/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li class="footer-nav-social-item">
+            <a class="footer-nav-social-link" href="#">
+              <img class="navbar-logo" src="./images/icons/instagram.svg" alt="instagram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+.feedback-container {
+  background-color: $color-primary-100;
+  padding: 40px 0 46px 0;
+
+  & > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  & form {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    & .btn.btn-primary {
+      height: 100%;
+      width: 190px;
+      padding: 16px 0 18px 0;
+      @include btn-secondary;
+      color: $color-primary-100;
+      background-color: $color-primary-200;
+      border: 1px solid $color-primary-200;
+      border-radius: 15px;
+
+      &:hover,
+      &:focus {
+        color: $color-primary-200;
+        background-color: $color-primary-100;
+      }
+    }
+  }
+}
+
+.feedback-text-container {
+  max-width: 429px;
+  margin-right: calc(0 + (94 - 0) * ((100vw - 320px) / (1440 - 320)));
+  color: $color-primary-200;
+  @include forms;
+  line-height: 1.36;
+
+  @media (max-width: 1200px) {
+    margin-right: 0;
+  }
+
+  & > h2 {
+    @include title-fourth;
+    color: $color-primary-200;
+    margin-bottom: 20px;
+  }
+}
+
+.form-control {
+  width: calc(250px + (505 - 250) * ((100vw - 320px) / (1440 - 320)));
+  height: 100%;
+  padding: 15px 22px 19px 16px;
+  @include forms;
+  color: $color-primary-200;
+  background-color: transparent;
+  border: 1px solid $color-secondary-300;
+  border-radius: 15px;
+
+  &::placeholder {
+    color: $color-primary-200;
+    @include forms;
+  }
+}

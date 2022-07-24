@@ -1,0 +1,23 @@
+body {
+  @include title-sixth;
+  background-color: $color-primary-200;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  padding: 0 40px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

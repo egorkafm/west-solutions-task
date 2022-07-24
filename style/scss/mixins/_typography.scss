@@ -1,0 +1,97 @@
+@mixin title-first {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+}
+
+@mixin title-second {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+}
+
+@mixin title-third {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+}
+
+@mixin title-fourth {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  font-style: normal;
+}
+
+@mixin title-fifth {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+}
+
+@mixin title-sixth {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+}
+
+@mixin btn-primary {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+}
+
+@mixin btn-secondary {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+}
+
+@mixin forms {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+}
+
+@mixin links {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+}
+
+@mixin tabs {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+}
+
+@mixin span-primary {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+}
+
+@mixin span-secondary {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  font-style: normal;
+}
+
+@mixin dropdown {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+}
